@@ -10,13 +10,29 @@ body {
 body section {
   height: 100vh;
   width: 100%;
-  background: blue;
 }
 
 .first-section {
   height: 100vh;
   width: 100%;
-  background: #51ff00;
+  display: flex;
+  justify-content: center;
+}
+.first-section .container {
+  width: 700px;
+  height: 100%;
+  background: #00ff0d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-section .container .result {
+  width: 500px;
+  width: 700px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .second-section {
