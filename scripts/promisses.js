@@ -43,16 +43,16 @@ function createPost(post) {
 
 // Async / Await
 
-/* async function init() {
+async function init() {
   await createPost({ title: "Post three", body: "This is post three" });
 
   getPosts();
 }
 
-init(); */
+init();
 
 // Async / Await / Fetch
-
+/* 
 async function fetchUsers() {
   const res = await await fetch("https://jsonplaceholder.typicode.com/users");
 
@@ -61,7 +61,7 @@ async function fetchUsers() {
   console.log(data);
 }
 
-fetchUsers();
+fetchUsers(); */
 // Promise.all
 /* const promise1 = Promise.resolve("Hello World");
 const promise2 = 10;
